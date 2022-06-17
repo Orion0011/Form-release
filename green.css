@@ -1,0 +1,23 @@
+/* h1{font-family: 'Courier New', Courier, monospace;}
+#two{font-family: fantasy;}
+h1{font-size: 30px;}
+#two{font-size: 4em}
+h1 {text-align: center; font-weight: lighter;} 
+#top{border: 10px solid blue;text-align: center;width: 40%;margin-right: ;}
+#botton{border: 10px solid red;padding: 200px;*/ 
+
+
+/* 
+#EC9A229
+#A8201A
+p{padding-top: 3px;padding-bottom: 3px; padding-left: 3px;padding-right: 3px;border-top: 3px;border-bottom: 3px;border-left: 3px;border-right: 4px;margin-top: 3px; margin-bottom: 3px; margin-left: 3px;margin-right: 3px;}
+
+.green{border: 3px solid blue;color: red;width: 200px;height: 50px;text-align:center;text-shadow:2px 3px green ;}
+
+
+.green{padding: 40px 40px;margin: 30px;background-color: yellow;border-radius: 10px;font-size: large;font-family: 'Times New Roman', Times, serif;font-weight: 500;
+transform: translate(100px,23px);
+} */
+
+.channy{color: white;background-color: purple;border: 2px solid white;width: 150px;margin: 20px;padding: 10px 20px 40px 40px;height: 50px;text-align: left;}
+.flex-container{text-transform: capitalize;background-color: #f1f1f1}

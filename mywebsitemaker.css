@@ -1,0 +1,286 @@
+/* /* .f{background-color: blueviolet;border-radius: 4px; height: 50px;width: 1500px;font-size: large;text-align: center;
+
+} */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: cursive;background-image: url(nature.jpg);background-size: contain;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none; 
+   }
+   
+   
+   /* NAVBAR STYLING STARTS */
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(28, 214, 214);
+    color: rgb(189, 41, 41);
+   }
+   .nav-links a {
+    color: rgb(223, 38, 31);
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;padding-left: 800px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #4c9e57;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   } 
+
+
+/* 
+.VAR p{
+    color: rgba(236, 12, 12, 0.993);
+}  */
+
+
+/* .navbar.navbar-expand-lg { 
+    background-color:#6b7fdf;
+      height: auto;
+    width: 100%;
+    }
+    .nav-link{
+      color: white;
+    }
+    .nav-link.dropdown-toggle {
+    color: black;
+    font-weight: bold;
+    margin-right: 0 auto;
+    }
+    .navbar-toggler{
+      border: 1px solid white;
+      color: white;
+    }
+    
+     */
+
+.jumbotron{background-color: rgba(230, 247, 243, 0.747);
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-left: 600px;
+  margin-right: 660px;
+  margin-top: 160px;
+  padding-bottom: 88px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 48px;
+  text-align: start;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+
+
+
+
+
+
+
+.fn{padding-left: 300px;margin-right:300;margin-left:600px ; system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";color:rgb(20, 12, 12);font-size: medium;font-weight: bold;}
+
+.a{font-size: 15px;
+  font-weight: lighter;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-left: 600px;
+  margin-right: 1000px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 416px;
+  padding-top: 5px;
+  text-align: start;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";border: 2px lightslategray solid;
+
+}
+.ln{padding-left: 300px;font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";color:rgb(20, 12, 12);font-size: medium;font-weight: bold;}
+.b{font-size: 15px;
+  font-weight: lighter;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-left: 600px;
+  margin-right: 1000px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 416px;
+  padding-top: 5px;
+  text-align: start;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";border: 2px lightslategray solid;
+}
+
+.em{padding-left: 300px;font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";color: rgb(20, 12, 12);font-size: medium;font-weight: bold;}
+.c{font-size: 15px;
+  font-weight: lighter;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-left: 600px;
+  margin-right: 1000px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 416px;
+  padding-top: 5px;
+  text-align: start;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";border: 2px lightslategray solid
+}
+
+  .pw{padding-left: 300px;font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";color:rgb(20, 12, 12);font-size: medium;font-weight: bold;}
+  .d{font-size: 15px;
+    font-weight: lighter;
+    line-height: 24px;
+    margin-bottom: 16px;
+    margin-left: 600px;
+    margin-right: 1000px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 416px;
+    padding-top: 5px;
+    text-align: start;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";border: 2px lightslategray solid;
+  }
+
+.login{font-weight: 400;}
+
+.submit{text-decoration: none;border: 2px solid green ;margin-left: 300px;margin-right: 1520px;text-align: center;padding:2px 3px 2px 3px;border-radius: 5px;background-color: rgb(206, 206, 223);font-size: large;}
+
+
+
+.container {
+  height: 250px;
+  margin: 700px 700px 700px 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+ margin-top: -800px;
+ max-width: 50px;
+ max-height: 100px;
+}
+
+
+
+.cell {
+  color:bluee;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+.cell-1 {
+  background: blue; border: 3px solid black;text-align: center;max-width: 2px;max-height: 4px;
+}
+.cell-2 {
+  background:greenyellow; border: 3px solid black;max-width: 2px;max-height: 4px;text-align: center;
+}
+.cell-3 {
+  background:blue; border: 3px solid black;max-width: 2px;max-height: 4px;
+}
+.cell-4 {
+  background: greenyellow; border: 3px solid black;max-width: 2px;max-height: 4px;
+}
+.cell-5 {
+  background: blue; border: 3px solid black;max-width: 2px;max-height: 4px;
+}
+.cell-6 {
+  background: greenyellow; border: 3px solid black;max-width: 2px;max-height: 4px;
+}
+.cell-7 {
+  background: blue; border: 3px solid black;max-width: 2px;max-height: 4px;
+}
+.cell-8 {
+  background: greenyellow; border: 3px solid black;
+}
+.cell-9 {
+  background: blue; border: 3px solid black;
+}
+
+
+.game{background-color: rgba(230, 247, 243, 0.747);
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: 20px;
+  margin: 300px 300px 800px 300px;
+  padding: 8px 10px 20px 5px;
+  text-align: start;
+  height: 250px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.tic{text-decoration: none;border: 2px solid green ;margin-left: 30px;margin-right: 1400px;margin-top: 100px;text-align: center;padding-right:80px;padding-left: 20px;padding-top: 20px;padding-bottom: 20px;
+  border-radius: 5px;background-color: rgb(206, 206, 223);font-size: large;text-align: center;}
+#tic{margin-top: 25px;font-size: xx-large;font-weight: 600;}
+
+td{
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border: 5px solid black;
+  font-size: 100px;
+}
+
+
+.toble{margin-left: 600px;background-color: antiquewhite;margin-right: 900px;}
+
+
+
+
+
+
+
+
+
+
