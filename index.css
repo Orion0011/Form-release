@@ -31,16 +31,17 @@ border: 2px solid white;border-radius: 10px;}
 .item-o:hover{border-color: rgba(0, 217, 255, 0.973);}
 .item-f:hover{border-color: rgba(0, 217, 255, 0.973);}
 
-@media screen and (max-width:1200px) {
-    .item-o{width:40%}
-    .item-f{width:40%}
-}
-
 
 @media screen and (max-width:600px) {
     .item-o{width:90%;padding: 20px;}
     .item-f{width:90%;padding: 20px;}
 }
+
+@media screen and (max-width:1200px) {
+    .item-o{width:40%}
+    .item-f{width:40%}
+}
+
 
 
 
