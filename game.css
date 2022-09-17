@@ -180,9 +180,9 @@ main {
 }
 
 .p-one{
-color: white;
-background-color: #c7365f;
-border: 2px solid #c7365f;
+color: blue;
+background-color: white;
+border: 2px solid blue;
 padding: 2em;
 border-radius: 7px;
 }
@@ -194,9 +194,9 @@ font-size: 2em;
 
 
 .p-two{
-  color: white;
-  background-color: #c7365f;
-  border: 2px solid #c7365f;
+  color: yellow;
+  background-color: white;
+  border: 2px solid yellow;
   padding: 2em;
   border-radius: 7px;
   }
@@ -221,16 +221,17 @@ color: white;
 }
 
 button{
-  background-color: #c7365f;
+  background-color: rgba(105, 255, 255, 0.4);
   padding: 0.5em;
   border: 2px solid white;
 border-radius: 5px;
 }
 
 input{
-background-color: #c7365f;
+background-color: rgba(105, 255, 255, 0.4);
 border: 2px solid white;
 font-size: 1.5em;
+padding:0.5em
 }
 
 
